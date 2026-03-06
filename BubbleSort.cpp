@@ -34,3 +34,16 @@ void input()
     }
 }    
 
+void display()
+{
+    cout << endl;
+    cout << "==========================" << endl;
+    cout << "Elemen Array telah terurut" << endl;
+    cout << "==========================" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "data ke-" << ": " << a[i] << endl;
+    }
+}
+
